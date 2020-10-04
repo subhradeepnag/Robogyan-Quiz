@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Robogyan</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://secure.gravatar.com/blavatar/5f66d2f8c7d310f800665fdca6e14ff3?s=200&ts=1586559975">
+  </head>
+  <body>
+
+    <div class="intro container">
+      <h1><strong>WELCOME</strong></h1>
+      <br>
+      <p>Take this Quiz</p>
+      <p>This quiz contains a total of 20 questions</p>
+      <p>You get 10 seconds to answer each question.</p>
+      <button type="button" name="startQuiz" class="btn btn-lg" id="startQuizBtn">Enter Quiz</button>
+    </div>
+
+    <div class="preQuiz">
+      <p></p>
+    </div>
+
+    <div class="progressBar"></div>
+
+    <div class="container question-box">
+      <h1></h1>
+      <h2></h2>
+      <div class="row">
+        <div class="col-12">
+          <img src="" class="justify-content-center" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container options">
+      <div class="row justify-content-center">
+        <div class="col-md-4" id="option">
+          <button type="button" class="btn btn-block" id="option1">option1</button>
+        </div>
+        <div class="col-md-4" id="option">
+          <button type="button" class="btn btn-block" id="option2">option2</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 offset-md-2" id="option">
+          <button type="button" class="btn btn-block" id="option3">option3</button>
+        </div>
+        <div class="col-md-4" id="option">
+          <button type="button" class="btn btn-block" id="option4">option4</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="result container">
+      <h1>RESULT</h1>
+      <p>You got <span id="score"></span>/14 answers correct!</p>
+      <!-- <p>You qualify for the following domains:</p> -->
+      <!-- <ul class="text-center" id="qualifiedDomains"> -->
+        <p>Congrats!</p>
+      </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/style.js" charset="utf-8"></script>
+  </body>
+</html>
